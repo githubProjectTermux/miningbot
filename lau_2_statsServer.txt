@@ -1,0 +1,65 @@
+
+defunct:                                  0
+off:                                      0
+allowed:                                  1
+overheat:                                 0
+pool_info:                                stratumproxy enabled
+                                          proxywallet ENTER_YOUR_WALLETKEY_HERE
+                                          proxypool1 pool-usa.ethosdistro.com:5001
+                                          proxypool2 pool-eu.ethosdistro.com:5001
+pool:                                     pool-usa.ethosdistro.com:5001
+miner_version:                            0.12.0.dev1
+rx_kbps:                                  0.41
+tx_kbps:                                  0.05
+kernel:                                   4.8.17-ethos49
+boot_mode:                                uefi
+uptime:                                   20809
+mac:                                      902b34685bef
+hostname:                                 685bef
+rack_loc:                                 
+ip:                                       192.168.1.12
+manu:                                     Gigabyte
+mobo:                                     H77M-D3H
+lan_chip:                                 Qualcomm Atheros AR8151 v2.0 Gigabit Ethernet (rev c0)
+load:                                     0.18
+ram:                                      8
+cpu_temp:                                 51
+cpu_name:                                 4 x Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+rofs:                                     89
+drive_name:                               Cruzer Blade 4C531001590820101355
+freespace:                                3.5
+temp:                                     62.00
+version:                                  1.2.7
+miner_secs:                               20752
+adl_error:                                
+proxy_problem:                            working
+updating:                                 0
+connected_displays:                       
+resolution:                               
+gethelp:                                  
+config_status:                            
+send_remote:                              http://ethosdistro.com/pool.txt
+autorebooted:                             0
+status:                                   27.1 hash: miner active
+driver:                                   amdgpu
+selected_gpus:                            
+gpus:                                     2
+fanrpm:                                   3776
+fanpercent:                               84
+hash:                                     27.14
+miner:                                    ethminer
+miner_hashes:                             27.14
+models:                                   01 Ellesmere RX 580 115-D009PI2-101 Samsung
+bioses:                                   115-D009PI2-101
+default_core:                             1360
+default_mem:                              2000
+vramsize:                                 8
+core:                                     1275
+mem:                                      2000
+memstates:                                2
+meminfo:                                  GPU0:01.00.0:Radeon RX 580:115-D009PI2-101:Samsung K4G80325FB:GDDR5:Polaris10
+voltage:                                  1.150
+overheatedgpu:                            
+throttled:                                
+powertune:                                5
+

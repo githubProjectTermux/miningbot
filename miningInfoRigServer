@@ -1,0 +1,42 @@
+#!/bin/bash
+#developed by SoulXHades aka. SoulX
+
+username="shwn"
+rignum=1
+sleeptime=30
+serveruser="soulx"
+serverip="192.168.1.17"
+serverpass="p@ssword"
+workingdict="/home/soulx/Documents/PythonProject"
+
+
+echo "Launching..."
+echo "Sleeptime is set to ${sleeptime}"
+
+#Newline
+echo ""
+
+
+while [ 1 ]
+do
+	echo "Reading stats"
+	#write current time in 24-hours format to text file
+	command date +"%s" > ${username}_${rignum}_statsServer.txt
+	#write stats to text file
+	command stats >> ${username}_${rignum}_statsServer.txt	
+
+
+	echo -e "\e[96mSending data to server\e[39m"
+	sshpass -p ${serverpass} sftp ${serveruser}@${serverip}:${workingdict} << 'EOS'
+put shwn_1_statsServer.txt
+bye
+EOS
+	echo -e "\e[92mSent to server successfully!\e[39m"
+
+	#Newline
+	echo ""	
+
+	#edit your time interval to send the data
+	#default is 1 min
+	sleep ${sleeptime}
+done
