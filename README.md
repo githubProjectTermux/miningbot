@@ -19,4 +19,4 @@ The issues reported by user through the telegram chat to the telegram bot will b
 
 # Additional Side Note
 
-The rest of the files here are older version or for testing in the past. So you can ignore them or delete them.
+The rest of the files here are for older version or for testing. So you can ignore them or delete them.
