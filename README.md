@@ -6,7 +6,7 @@ I created this bot and script for a company long time ago (December 2017). Howev
 
 # Files Required
 
-The main files are folder ("data", and "issues"), and others ("miningInfo_RigServer.py", "miningInfoBot_v1.py", "rig_details.txt") to run the whole system. "MiningInfoBot v1.0.doc" is a word document that contains the software you need to download, set, and also explains my code.
+The main files are folder ("data", and "issues"), and others ("miningInfo_RigServer.py", "miningInfoBot_v1.py", "rig_details.txt") to run the whole system. "MiningInfoBot v1.0.doc" is a word document that contains informations of the software you need to download, set, and also explains my code.
 
 # Abtract of each file
 
