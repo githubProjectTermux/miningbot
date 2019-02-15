@@ -8,7 +8,7 @@ I created this bot and script for a company long time ago (December 2017). Howev
 
 The main files are folder ("data", and "issues"), and others ("miningInfo_RigServer.py", "miningInfoBot_v1.py", "rig_details.txt") to run the whole system. "MiningInfoBot v1.0.doc" is a word document that contains informations of the software you need to download, set, and also explains my code.
 
-# Abtract of each file
+# Abstract of each file
 
 miningInfoBot_v1.py is the main python file that bridge between the telegram user and the server.
 miningInfo_RigServer.py is a python script that SSH into each of your mining rigs and exact the necessary info so that miningInfoBot_v1.py can send user the data. The data extracted will be stored in the "data" folder. 
