@@ -12,7 +12,7 @@ The main files are folder ("data", and "issues"), and others ("miningInfo_RigSer
 
 miningInfoBot_v1.py is the main python file that bridge between the telegram user and the server.
 miningInfo_RigServer.py is a python script that SSH into each of your mining rigs and exact the necessary info so that miningInfoBot_v1.py can send user the data. The data extracted will be stored in the "data" folder. 
-rig_details.txt must contain the name of each rig follow by the IP Address of each rig (IP Address of each rig must be static). The username must be in this format, <Name>_<IncrementingNumberFrom1><Space><IPaddress>.
+rig_details.txt must contain the name of each rig follow by the IP Address of each rig (IP Address of each rig must be static). The username must be in this format, NAME_INCREMENTINGNUMBERSTARTINGFROM1 IPADDRESS.
 
 The issues reported by user through the telegram chat to the telegram bot will be stored in "issues" folder.
 
